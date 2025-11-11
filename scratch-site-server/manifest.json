@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "ScratchServer Full Page",
+  "version": "1.0",
+  "description": "Extract Notes & Credits from Scratch API for any project.",
+  "permissions": ["activeTab", "scripting", "tabs"],
+  "host_permissions": ["https://api.scratch.mit.edu/projects/*"],
+  "action": {
+    "default_title": "Open ScratchServer Full Page",
+    "default_popup": "fullpage.html"
+  }
+}
